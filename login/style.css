@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    background-color: #312E38;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 80px;
+}
+
+header #title {
+    text-align: center;
+    border-top: 2px solid #FF9000;
+    border-bottom: 2px solid #FF9000;
+    width: 230.03px;
+    color: #F4EDE8;
+}
+
+header p {
+    color: #999591;
+}
+
+h2 {
+    color: #F4EDE8;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 340px;
+    height: 56px;
+    background: #232129;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 8px;
+}
+
+form button {
+    width: 340px;
+    height: 56px;
+
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+    background: #FF9000;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+
+    font-weight: 500;
+}
+
+form a {
+    color: #F4EDE8;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#criar__conta {
+    text-align: center;
+    color: #FF9000;
+}
