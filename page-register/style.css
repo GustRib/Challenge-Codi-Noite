@@ -40,9 +40,11 @@ body {
 }
 
 .container-form .form-box header h1 {
+  max-width: 300px;
   font-size: 2.5rem;
   text-align: center;
   letter-spacing: -4px;
+  line-height: 90%;
   color: var(--white);
   margin: 0 0 5rem 0;
   padding: 1rem 0;
@@ -99,7 +101,7 @@ body {
   border: 1px solid var(--orange);
 }
 
-.container-form .form-box form:focus-within div i {
+.container-form .form-box form #name:focus-within div .ph-user {
   color: var(--orange);
 }
 
@@ -140,6 +142,10 @@ body {
   }
 
   .container-form {
+    width: 100%;
+  }
+
+  .container-form .form-box form {
     width: 100%;
   }
 
