@@ -52,13 +52,33 @@ form {
     flex-direction: column;
 }
 
+form div {
+    position: relative;
+}
+
+form div i{
+    position: absolute;
+    top: 4px;
+    left: 0;
+    margin: 1rem 0 0 0.5rem;
+    font-size: 1rem;
+    color: #666360;
+}
+
 form input {
     width: 340px;
     height: 56px;
     background: #232129;
+    color: #F4EDE8;
     border-radius: 10px;
     outline: none;
+    border: 0;
+    padding: 1rem 1rem 1rem 2rem;
     margin-bottom: 8px;
+}
+
+form input:focus-within {
+    border: 1px solid #FF9000;
 }
 
 form button {
@@ -71,6 +91,8 @@ form button {
     background: #FF9000;
     border-radius: 10px;
     cursor: pointer;
+
+    border: 0;
     outline: none;
 
     font-weight: 500;
