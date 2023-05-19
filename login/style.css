@@ -1,110 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Roboto Slab', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
 
-    background-color: #312E38;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #312e38;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 1.5rem 0 3rem 0;
 }
 
 header #title {
-    text-align: center;
-    border-top: 2px solid #FF9000;
-    border-bottom: 2px solid #FF9000;
-    width: 230.03px;
-    color: #F4EDE8;
+  text-align: center;
+  border-top: 2px solid #ff9000;
+  border-bottom: 2px solid #ff9000;
+  width: 230.03px;
+  color: #f4ede8;
 }
 
 header p {
-    color: #999591;
+  color: #999591;
 }
 
 h2 {
-    color: #F4EDE8;
-    font-weight: 500;
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 24px;
+  color: #f4ede8;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 form div {
-    position: relative;
+  position: relative;
 }
 
-form div i{
-    position: absolute;
-    top: 4px;
-    left: 0;
-    margin: 1rem 0 0 0.5rem;
-    font-size: 1rem;
-    color: #666360;
+form div i {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  margin: 1rem 0 0 0.5rem;
+  font-size: 1rem;
+  color: #666360;
 }
 
 form input {
-    width: 340px;
-    height: 56px;
-    background: #232129;
-    color: #F4EDE8;
-    border-radius: 10px;
-    outline: none;
-    border: 0;
-    padding: 1rem 1rem 1rem 2rem;
-    margin-bottom: 8px;
+  width: 340px;
+  height: 56px;
+  background: #232129;
+  color: #f4ede8;
+  border-radius: 10px;
+  outline: none;
+  border: 0;
+  padding: 1rem 1rem 1rem 2rem;
+  margin-bottom: 8px;
 }
 
 form input:focus-within {
-    border: 1px solid #FF9000;
+  border: 1px solid #ff9000;
 }
 
 form button {
-    width: 340px;
-    height: 56px;
+  width: 340px;
+  height: 56px;
 
-    margin-top: 16px;
-    margin-bottom: 24px;
+  margin-top: 16px;
+  margin-bottom: 24px;
 
-    background: #FF9000;
-    border-radius: 10px;
-    cursor: pointer;
+  background: #ff9000;
+  border-radius: 10px;
+  cursor: pointer;
 
-    border: 0;
-    outline: none;
+  border: 0;
+  outline: none;
 
-    font-weight: 500;
+  font-weight: 500;
 }
 
 form a {
-    color: #F4EDE8;
-    text-align: center;
-    margin-bottom: 80px;
+  color: #f4ede8;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 #criar__conta {
-    text-align: center;
-    color: #FF9000;
+  text-align: center;
+  color: #ff9000;
 }
