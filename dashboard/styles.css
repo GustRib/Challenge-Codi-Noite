@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black-medium: #28262e;
+  --background: #312e38;
+  --gray: #999591;
+  --white: #f4ede8;
+  --orange: #ff9000;
+  --fontFamily: "Poppins", sans-serif;
+}
+body {
+  background-color: var(--background);
+  font-family: var(--fontFamily);
+}
+
+header {
+  background-color: var(--black-medium);
+  padding: 2rem 0;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 90%;
+  margin-inline: auto;
+}
+
+header nav h1 {
+  max-width: 150px;
+  font-size: 0.875rem;
+  text-align: center;
+  color: var(--white);
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  border-top: 4px solid var(--orange);
+  border-bottom: 4px solid var(--orange);
+}
+
+header nav .info-user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  margin-left: 4rem;
+}
+
+header nav .info-user img {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+header nav .info-user div {
+  display: flex;
+  flex-direction: column;
+}
+
+header nav .info-user div span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gray);
+}
+
+header nav .info-user div strong {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--orange);
+}
+
+header nav button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+main {
+  max-width: 1200px;
+  width: 90%;
+  margin-inline: auto;
+}
+
+main h1 {
+  margin-top: 6rem;
+  font-size: 3rem;
+  font-style: italic;
+  color: var(--white);
+}
+
+main .wrapper-card {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+main .wrapper-card .cards {
+  width: 30rem;
+  background-color: var(--black-medium);
+  border-radius: 6px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .wrapper-card .cards img {
+  width: 5rem;
+  border-radius: 6px;
+  border: 2px solid var(--orange);
+}
+
+main .wrapper-card .cards .name {
+  flex: 1;
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  font-style: italic;
+  color: var(--gray);
+}
+
+main .wrapper-card .cards .date {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+main .wrapper-card .cards .date strong {
+  font-size: 0.875rem;
+  color: var(--white);
+}
+
+main .wrapper-card .cards .date time {
+  font-size: 0.875rem;
+  color: var(--gray);
+}
