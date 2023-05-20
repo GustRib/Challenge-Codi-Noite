@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --background: #312e38;
+  --white: #f4ede8;
+  --orange: #ff9000;
+  --inputs: #232129;
+  --textInput: #666360;
+  --fontFamily: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  font-family: var(--fontFamily);
+}
+
+#app {
+  display: flex;
+}
+
+.bg-image {
+  background-image: url(/assets/img/bg-image.svg);
+  width: 60%;
+  height: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-form {
+  display: grid;
+  place-content: center;
+  width: 40%;
+}
+
+.container-form .form-box header h1 {
+  max-width: 300px;
+  font-size: 2.5rem;
+  text-align: center;
+  letter-spacing: -4px;
+  line-height: 90%;
+  color: var(--white);
+  margin: 0 0 5rem 0;
+  padding: 1rem 0;
+  border-top: 4px solid var(--orange);
+  border-bottom: 4px solid var(--orange);
+}
+
+.container-form .form-box form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.container-form .form-box form strong {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 2rem;
+  padding-bottom: 4px;
+  border-bottom: 2px solid var(--orange);
+  text-align: center;
+  display: block;
+}
+
+.container-form .form-box form div {
+  width: 100%;
+  position: relative;
+}
+
+.container-form .form-box form div i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1rem 0 0 0.5rem;
+  font-size: 1rem;
+  color: var(--textInput);
+}
+
+.container-form .form-box form input {
+  width: 100%;
+  padding: 1rem 1rem 1rem 2rem;
+  margin-bottom: 1rem;
+  border: 0;
+  outline: none;
+  background-color: var(--inputs);
+  border-radius: 10px;
+  font-size: 1rem;
+  color: var(--textInput);
+}
+
+.container-form .form-box form input:focus-within {
+  border: 1px solid var(--orange);
+}
+
+.container-form .form-box form #name:focus-within div .ph-user {
+  color: var(--orange);
+}
+
+.container-form .form-box form button {
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--orange);
+  border-radius: 10px;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--background);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.container-form .form-box form button:hover {
+  filter: brightness(0.7);
+}
+
+.container-form .form-box a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 3rem auto 0 auto;
+  color: var(--white);
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 85.7%;
+  }
+
+  .bg-image {
+    display: none;
+  }
+
+  .container-form {
+    width: 100%;
+  }
+
+  .container-form .form-box form {
+    width: 100%;
+  }
+
+  .container-form .form-box header {
+    margin-top: 5rem;
+  }
+}

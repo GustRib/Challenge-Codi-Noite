@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Codi</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body> <header>
+    <h1>Barbearia Codi</h1>
+    <nav>
+        <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="login.php">Entrar</a></li>
+            <li><a href="register.php">Cadastre-se</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<section id="banner">
+    <h2>Barba e Cabelo para Homens Modernos</h2>
+    <button>Agende já sua visita</button>
+</section>
+
+<section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="servico">
+        <img src="/assets/img/cabelo.jpg">
+        <h3>Corte de Cabelo</h3>
+        <p>Aqui na Barbearia Estilo, oferecemos cortes de cabelo modernos e estilosos que vão deixar você se sentindo incrível.</p>
+    </div>
+    <div class="servico">
+        <img src="/assets/img/barba.jpg">
+        <h3>Barba</h3>
+        <p>Com nossos profissionais especializados em barba, você pode ter certeza de que sairá daqui com a barba dos seus sonhos.</p>
+    </div>
+    <div class="servico">
+        <img src="/assets/img/cabelo-e-barba.jpg">
+        <h3>Cabelo e Barba</h3>
+        <p>Precisa de um corte de cabelo e barba? Nós cuidamos de tudo para você no mesmo horário, economizando seu tempo e dinheiro.</p>
+    </div>
+</section>
+
+<section id="equipe">
+    <h2>Nossa Equipe</h2>
+    <div class="barbeiro">
+        <img src="/assets/img/barbeiro1.jpg">
+        <h3>João Silva</h3>
+        <p>Com mais de 10 anos de experiência em barbearia, João é um dos melhores barbeiros da cidade.</p>
+    </div>
+    <div class="barbeiro">
+        <img src="/assets/img/barbeiro2.jpg">
+        <h3>Carlos Santos</h3>
+        <p>Carlos é um especialista em cabelo e barba, sempre mantendo-se atualizado nas últimas tendências da moda masculina.</p>
+    </div>
+    <div class="barbeiro">
+        <img src="/assets/img/barbeiro3.jpg">
+        <h3>Bruno Ferreira</h3>
+        <p>Bruno é um jovem talentoso, sempre buscando inovar e surpreender seus clientes com cortes e estilos únicos.</p>
+    </div>
+</section>
+
+<section id="contato">
+    <h2>Entre em Contato</h2>
+    <div class="wrapper">
+        <form action="submit-formulario.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.018949703958!2d-43.37807872569744!3d-21.77952759855689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989ba4f5d4d0e3%3A0xce26e835a31bd3fc!2sCRITT%20-%20Juiz%20de%20Fora%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1683756634563!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; Barbearia Estilo - Todos os direitos reservados</p>
+</footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
