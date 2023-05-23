@@ -32,8 +32,8 @@
             <!-- <button type="button">Entrar</button> -->
             <input class="inputSubmit" type="submit" name="submit" value="Enviar">
     
-            <a href="">Esqueci minha senha</a>
-            <a id="criar__conta" href="/register.php">Criar conta</a>
+            <a href="/index.html">Página Inicial</a>
+            <a id="criar__conta" href="/register.php">Não tem cadastro? Crie sua conta.</a>
         </form>
 
     </div>
