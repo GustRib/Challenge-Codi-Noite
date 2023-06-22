@@ -10,11 +10,11 @@
     <title>Login</title>
 </head>
 
-<body>
+<body style="overflow: hidden;">
   
     <div class="container">
         <header>
-            <p>Incrível</p>
+            <p style="margin-top: 1rem;">Incrível</p>
             <h1 id="title">Barbearia Codi</h1>
             <p>Cortes de Cabelo & Barba</p>
         </header>
@@ -30,10 +30,10 @@
                 <i class="ph ph-lock-simple"></i>
             </div>
             <!-- <button type="button">Entrar</button> -->
-            <input class="inputSubmit" type="submit" name="submit" value="Enviar">
+            <button style="background-color: #ff9000; color: #fff; font-size: 1rem; font-weight: bold;" class="inputSubmit" type="submit" name="submit">Enviar</button>
     
-            <a href="/index.html">Página Inicial</a>
-            <a id="criar__conta" href="/register.php">Não tem cadastro? Crie sua conta.</a>
+            <a style="margin-top: 3rem;" href="/index.php">Página Inicial</a>
+            <a style="margin-top: -3rem;" id="criar__conta" href="/register.php">Não tem cadastro? Crie sua conta.</a>
         </form>
 
     </div>

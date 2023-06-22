@@ -159,8 +159,9 @@ main .banner a {
   padding: 1rem 1.5rem;
   margin-inline: auto;
   display: block;
-  width: 14rem;
+  width: 16rem;
   text-decoration: none;
+  font-size: 0.875rem;
   font-weight: 800;
   border-radius: 6px;
   display: flex;

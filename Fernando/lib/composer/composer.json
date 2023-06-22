@@ -1,0 +1,18 @@
+{
+    "name": "fernando/calendar",
+    "description": "Lista de Agendamento com PHP",
+    "autoload": {
+        "psr-4": {
+            "Fernando\\Calendar\\": "src/",
+            "Classes\\": "../../class",
+            "Models\\": "../../model"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fernando Lima",
+            "email": "fernandoaslima@hotmail.com"
+        }
+    ],
+    "require": {}
+}

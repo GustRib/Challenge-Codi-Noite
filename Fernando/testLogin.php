@@ -25,16 +25,23 @@
             unset($_SESSION['senha']);
             header('Location: login.php');
         }
-        else
+        else if ($email == "fernandoaslima@hotmail.com") 
         {
             $_SESSION['email'] = $email;
             $_SESSION['senha'] = $senha;
             header('Location: sistema.php');
         }
+                
+        else
+        {
+            $_SESSION['email'] = $email;
+            $_SESSION['senha'] = $senha;
+            header('Location: /views/user/index.php');
+        }
+        
     }
     else
     {
         //Não acessa o sistema
         header('Location: login.php');
     }
-?>

@@ -11,6 +11,7 @@
         $result = $conexao->query($sqlSelect);
 
         if($result->num_rows > 0)
+        
         {
             $sqlDelete = "DELETE FROM usuarios WHERE id=$id";
             $resultDelete = $conexao->query($sqlDelete);
