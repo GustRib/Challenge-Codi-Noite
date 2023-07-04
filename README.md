@@ -2,10 +2,11 @@
 <br>
 
 <p align="center">
-     <a href="#Tecnologias">Tecnologias</a> • 
-     <a href="#Como usar">Como usar</a> • 
-     <a href="#Colaboradores">Colaboradores</a> •
-     <a href="#Licença">Licença</a> 
+     <a href="#🛠-tecnologias">Tecnologias</a> •
+     <a href="#✅-features">Tecnologias</a> • 
+     <a href="#💿-como-usar">Como usar</a> • 
+     <a href="#👨‍💻-colaboradores">Colaboradores</a> •
+     <a href="#✅-licença">Licença</a> 
 </p>
 
 <br>
