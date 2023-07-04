@@ -2,11 +2,11 @@
 <br>
 
 <p align="center">
-     <a href="#🛠-tecnologias">Tecnologias</a> •
-     <a href="#✅-features">Tecnologias</a> • 
-     <a href="#💿-como-usar">Como usar</a> • 
-     <a href="#👨‍💻-colaboradores">Colaboradores</a> •
-     <a href="#✅-licença">Licença</a> 
+     <a href="#-tecnologias">Tecnologias</a> •
+     <a href="#-features">Tecnologias</a> • 
+     <a href="#-como-usar">Como usar</a> • 
+     <a href="#-colaboradores">Colaboradores</a> •
+     <a href="#-licença">Licença</a> 
 </p>
 
 <br>
@@ -15,13 +15,13 @@ Este é um projeto de uma agenda de barbearia desenvolvido em HTML, CSS e PHP.
 
 <br>
 
-## 🌄 Layout
+# 🌄 Layout
 
 <img src="./barber/.github/preview.png" width="100%" />
 
 <br>
 
-## ✅ Features
+# ✅ Features
 
 - Sistema de login
 - Os clientes podem agendar cortes de cabelo e outros serviços oferecidos pela barbearia.
@@ -31,7 +31,7 @@ Este é um projeto de uma agenda de barbearia desenvolvido em HTML, CSS e PHP.
 
 <br>
 
-## 🛠 Tecnologias
+# 🛠 Tecnologias
 
 Abaixo tecnologias que foram usadas no projeto
 
@@ -43,12 +43,12 @@ Abaixo tecnologias que foram usadas no projeto
 
 <br>
 
-## 💿 Como usar
+# 💿 Como usar
 
-### ✅ Pré-requisitos
+## ✅ Pré-requisitos
 
 
-### 🎬 Rodando projeto
+## 🎬 Rodando projeto
 
 ```bash
 # Clone este repositório
@@ -64,7 +64,7 @@ Você precisa baixar o WAMPSERVER ou similar para rodar a aplicação no localho
 
 <br>
 
-## 👨‍💻 Colaboradores
+# 👨‍💻 Colaboradores
 
 <table>
 <tr>
