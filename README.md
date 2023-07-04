@@ -3,7 +3,7 @@
 
 <p align="center">
      <a href="#-tecnologias">Tecnologias</a> •
-     <a href="#-features">Tecnologias</a> • 
+     <a href="#-features">Funcionalidades</a> • 
      <a href="#-como-usar">Como usar</a> • 
      <a href="#-colaboradores">Colaboradores</a> •
      <a href="#-licença">Licença</a> 
